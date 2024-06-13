@@ -12,7 +12,7 @@
     <modules>
         <module>LibrariesDefinition</module>
         <module>LibrariesDefinitionSpringBoot</module>
-
+        <module>Tagetik</module>
     </modules>
 
 

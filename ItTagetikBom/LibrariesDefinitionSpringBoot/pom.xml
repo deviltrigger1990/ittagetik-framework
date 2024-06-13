@@ -3,6 +3,9 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <artifactId>LibrariesDefinitionSpringBoot</artifactId>
+    <version>1.0.0-ittagetik-framework-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <parent>
         <groupId>it.tagetik</groupId>
@@ -10,11 +13,6 @@
         <version>1.0.0-ittagetik-framework-SNAPSHOT</version>
         <relativePath>../Tagetik</relativePath>
     </parent>
-
-    <artifactId>LibrariesDefinitionSpringBoot</artifactId>
-    <version>1.0.0-ittagetik-framework-SNAPSHOT</version>
-    <packaging>pom</packaging>
-
 
     <dependencyManagement>
         <dependencies>
@@ -36,10 +34,15 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
             </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-autoconfigure</artifactId>
+            </dependency>
             <!-- Aggiungi altre dipendenze qui -->
 
         </dependencies>
     </dependencyManagement>
+
 
 
 
